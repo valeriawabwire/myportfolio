@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+     font-family:   system-ui; 
+}
+
+html,
+body{
+width: 100%;
+height:100%;
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+h1{
+    font-family:Times New Roman;
+    font-size: 100px;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(20, 17, 17);
+    
+    margin-bottom: 0;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+
+
+
+}
+media (max-width: 750px) {
+  #background-video { display: none; }
+  body {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+
+form input{
+    background-color: whitesmoke;
+    border: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    outline: black;
+    font-size: 20px;
+    justify-content: center;
+}
+
+    #details{
+        text-align: center;
+        background-color: pink;
+        width: 100%;
+        color:black;
+        text-align: center;
+        padding:20px;
+        display :flex;
+        justify-content: center;
+        gap: 10px;
+        float: left;
+        
+  }
+  .first-sparagraph{
+    font-family:Arial Narrow Bold;
+    font-size: x-large;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(20, 17, 17);
+    padding: 20px;
+}
+p{
+    gap:1em;
+}
+  
+  .menu_bar {
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  .logo{
+
+    font-weight: bold;
+    color: white;
+  }
+  .logo span{
+    font-weight: bold;
+    color: blue;
+  }
+   .ul{
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+  .menu_bar ul li{
+    padding: 10px 30px;
+  }
+  .menu_bar ul li a{
+    color: white;
+  }
+  .fa-snapchat{
+    font-size: 100px;
+    color: yellow;
+  }
+
+  .icons{
+    font-size: 80px;
+    margin: 5px;
+  }
+  

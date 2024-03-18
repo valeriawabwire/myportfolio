@@ -1,0 +1,14 @@
+.cons{
+color: #000;
+}
+
+.name{
+    color: cyan;
+    margin: top 0;
+    padding: 20px;
+position: relative;
+border-color: 4px cyan;
+font-size: 30px;
+background-color:black;
+width: 500px;
+}
